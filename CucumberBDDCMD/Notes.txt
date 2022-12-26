@@ -1,0 +1,18 @@
+By Default mvn test will run the files with naming syntax
+
+**/Test*.java
+**/*Test.java
+**/*TestCase.java
+
+Note:If we want to explicitely run the TestNG test
+the pls make use of Maven surefile plugin
+and provide the location path of the testng.xml.
+present inside configuration tag of pom.xml
+
+
+--Run feature file with cucumber options from CMD
+mvn test -Dcucumber.options="src/test/resources/features/login.feature"
+
+--Run the feature file from line number
+\CucumberBDDCMD>mvn test -Dcucumber.options="src/test/resources/features/login.feature:3"
+

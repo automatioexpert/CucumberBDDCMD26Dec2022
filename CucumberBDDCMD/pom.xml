@@ -9,13 +9,22 @@
 			<artifactId>cucumber-java</artifactId>
 			<version>7.10.0</version>
 		</dependency>
-		
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
 			<version>7.10.0</version>
 		</dependency>
-		
-		
 	</dependencies>
+	<!--<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId></groupId>
+					<artifactId></artifactId>
+					<version></version>
+					
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>-->
 </project>

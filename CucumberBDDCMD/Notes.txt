@@ -9,6 +9,7 @@ the pls make use of Maven surefile plugin
 and provide the location path of the testng.xml.
 present inside configuration tag of pom.xml
 
+--We can run the cucumber feature files from command line
 
 --Run feature file with cucumber options from CMD
 mvn test -Dcucumber.options="src/test/resources/features/login.feature"
